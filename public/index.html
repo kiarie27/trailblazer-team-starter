@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Moringa Pesa Sandbox practice app</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Moringa Pesa Sandbox practice app</h1>
+    <p class="note">Practice data only. Every name, number and balance is made up for this course. Nothing here is real money.</p>
+  </header>
+
+  <main>
+    <section class="card" aria-labelledby="statement-title">
+      <h2 id="statement-title">Mini statement</h2>
+      <p class="hint">Worked example: this card already works. Read <code>app.js</code> to see how.</p>
+      <form id="statement-form">
+        <label for="statement-phone">Phone number</label>
+        <input id="statement-phone" type="text" inputmode="numeric" autocomplete="off" placeholder="0700000001">
+        <button type="submit">Show statement</button>
+      </form>
+      <p id="statement-status" class="status" role="status" aria-live="polite"></p>
+      <ul id="statement-list" class="list"></ul>
+    </section>
+
+    <section class="card" aria-labelledby="balance-title">
+      <h2 id="balance-title">Check balance</h2>
+      <p class="hint">Day 3 exercise: make this card work, following the mini statement example.</p>
+      <form id="balance-form">
+        <label for="balance-phone">Phone number</label>
+        <input id="balance-phone" type="text" inputmode="numeric" autocomplete="off" placeholder="0700000001">
+        <button type="submit">Check balance</button>
+      </form>
+      <p id="balance-status" class="status" role="status" aria-live="polite"></p>
+    </section>
+
+    <section class="card" aria-labelledby="send-title">
+      <h2 id="send-title">Send money</h2>
+      <p class="hint">This card works. You will read its code on Day 4.</p>
+      <form id="send-form">
+        <label for="send-from">From (phone number)</label>
+        <input id="send-from" type="text" inputmode="numeric" autocomplete="off" placeholder="0700000001">
+        <label for="send-to">To (phone number)</label>
+        <input id="send-to" type="text" inputmode="numeric" autocomplete="off" placeholder="0700000002">
+        <label for="send-amount">Amount (KSh)</label>
+        <input id="send-amount" type="number" inputmode="numeric" placeholder="100">
+        <button type="submit">Send money</button>
+      </form>
+      <p id="send-status" class="status" role="status" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Practice numbers you can use: 0700000001 (Asha), 0700000002 (Baraka), 0700000003 (Chebet), 0700000004 (Daudi), 0700000005 (Eunice), 0700000006 (Faraji, a new account with no transactions).</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
