@@ -1,0 +1,221 @@
+{
+  "_note": "Made up for this course. The clubs of a fictional school. No member names, no teacher names and no sign-up details. Copy this file to data/challenges/school-club-finder.json in your team repository.",
+  "items": [
+    {
+      "id": 1,
+      "title": "Coding Club",
+      "detail": "Build small games and websites. Beginners welcome.",
+      "category": "technology",
+      "meetingDay": "Wednesday",
+      "startTime": "16:00",
+      "endTime": "17:00",
+      "room": "Computer lab",
+      "experienceNeeded": false,
+      "places": 25,
+      "tags": [
+        "computers",
+        "games",
+        "problem solving"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Debate Society",
+      "detail": "Practise arguing both sides of a motion.",
+      "category": "speaking",
+      "meetingDay": "Tuesday",
+      "startTime": "16:00",
+      "endTime": "17:15",
+      "room": "Room 4",
+      "experienceNeeded": false,
+      "places": 30,
+      "tags": [
+        "speaking",
+        "current affairs"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Drama Club",
+      "detail": "Act, direct or build sets for the end-of-term play.",
+      "category": "arts",
+      "meetingDay": "Thursday",
+      "startTime": "16:00",
+      "endTime": "17:30",
+      "room": "Hall",
+      "experienceNeeded": false,
+      "places": 35,
+      "tags": [
+        "acting",
+        "stage",
+        "writing"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Environment Club",
+      "detail": "Run the recycling point and plant trees.",
+      "category": "community",
+      "meetingDay": "Friday",
+      "startTime": "15:30",
+      "endTime": "16:30",
+      "room": "Biology lab",
+      "experienceNeeded": false,
+      "places": 40,
+      "tags": [
+        "trees",
+        "recycling",
+        "outdoors"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Chess Club",
+      "detail": "Learn openings and play friendly matches.",
+      "category": "games",
+      "meetingDay": "Wednesday",
+      "startTime": "16:00",
+      "endTime": "17:00",
+      "room": "Library",
+      "experienceNeeded": false,
+      "places": 20,
+      "tags": [
+        "strategy",
+        "games"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Robotics Club",
+      "detail": "Some coding needed. Coding Club is a good start.",
+      "category": "technology",
+      "meetingDay": "Monday",
+      "startTime": "16:00",
+      "endTime": "17:30",
+      "room": "Physics lab",
+      "experienceNeeded": true,
+      "places": 15,
+      "tags": [
+        "building",
+        "computers",
+        "electronics"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Music and Choir",
+      "detail": "Sing or play. No audition.",
+      "category": "arts",
+      "meetingDay": "Monday",
+      "startTime": "16:00",
+      "endTime": "17:00",
+      "room": "Music room",
+      "experienceNeeded": false,
+      "places": 45,
+      "tags": [
+        "singing",
+        "instruments"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Journalism Club",
+      "detail": "Write the termly newsletter.",
+      "category": "writing",
+      "meetingDay": "Tuesday",
+      "startTime": "16:00",
+      "endTime": "17:00",
+      "room": "Room 7",
+      "experienceNeeded": false,
+      "places": 20,
+      "tags": [
+        "writing",
+        "interviews",
+        "editing"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Scouts",
+      "detail": "Outdoor skills and service days.",
+      "category": "outdoors",
+      "meetingDay": "Saturday",
+      "startTime": "09:00",
+      "endTime": "11:00",
+      "room": "Field",
+      "experienceNeeded": false,
+      "places": 40,
+      "tags": [
+        "outdoors",
+        "teamwork",
+        "camping"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Wildlife Club",
+      "detail": "Learn about Kenya's wildlife and how to protect it.",
+      "category": "community",
+      "meetingDay": "Thursday",
+      "startTime": "16:00",
+      "endTime": "17:00",
+      "room": "Room 2",
+      "experienceNeeded": false,
+      "places": 30,
+      "tags": [
+        "animals",
+        "conservation"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Art Club",
+      "detail": "Paint murals and design posters for events.",
+      "category": "arts",
+      "meetingDay": "Friday",
+      "startTime": "15:30",
+      "endTime": "17:00",
+      "room": "Art room",
+      "experienceNeeded": false,
+      "places": 20,
+      "tags": [
+        "drawing",
+        "painting",
+        "design"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Kiswahili Club (Chama cha Kiswahili)",
+      "detail": "Mashairi, hadithi na michezo ya kuigiza.",
+      "category": "language",
+      "meetingDay": "Wednesday",
+      "startTime": "16:00",
+      "endTime": "17:00",
+      "room": "Room 5",
+      "experienceNeeded": false,
+      "places": 30,
+      "tags": [
+        "Kiswahili",
+        "poetry",
+        "drama"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Science Congress Club",
+      "detail": "Projects need a science teacher's approval.",
+      "category": "science",
+      "meetingDay": "Monday",
+      "startTime": "16:00",
+      "endTime": "17:00",
+      "room": "Chemistry lab",
+      "experienceNeeded": true,
+      "places": 15,
+      "tags": [
+        "experiments",
+        "projects"
+      ]
+    }
+  ]
+}

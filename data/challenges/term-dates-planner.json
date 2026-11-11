@@ -1,0 +1,137 @@
+{
+  "_note": "Made up for this course. A fictional term for a fictional school. It is not a real calendar. Public holidays are not listed: check real dates before you rely on them. Copy this file to data/challenges/term-dates-planner.json in your team repository.",
+  "items": [
+    {
+      "id": 1,
+      "title": "Term opens",
+      "detail": "Learners report by 08:00.",
+      "type": "term",
+      "startDate": "2027-01-04",
+      "startDay": "Monday",
+      "endDate": "2027-01-04",
+      "endDay": "Monday",
+      "audience": "everyone"
+    },
+    {
+      "id": 2,
+      "title": "Clubs fair",
+      "detail": "Visit every club's table in the hall.",
+      "type": "event",
+      "startDate": "2027-01-15",
+      "startDay": "Friday",
+      "endDate": "2027-01-15",
+      "endDay": "Friday",
+      "audience": "learners"
+    },
+    {
+      "id": 3,
+      "title": "Parents' and guardians' day",
+      "detail": "Meet class teachers from 09:00 to 12:00.",
+      "type": "event",
+      "startDate": "2027-01-23",
+      "startDay": "Saturday",
+      "endDate": "2027-01-23",
+      "endDay": "Saturday",
+      "audience": "families"
+    },
+    {
+      "id": 4,
+      "title": "Mid-term tests",
+      "detail": "Short tests in every subject.",
+      "type": "exam",
+      "startDate": "2027-02-08",
+      "startDay": "Monday",
+      "endDate": "2027-02-10",
+      "endDay": "Wednesday",
+      "audience": "learners"
+    },
+    {
+      "id": 5,
+      "title": "Half-term break",
+      "detail": "Learners return on Tuesday 23 February.",
+      "type": "break",
+      "startDate": "2027-02-18",
+      "startDay": "Thursday",
+      "endDate": "2027-02-22",
+      "endDay": "Monday",
+      "audience": "everyone"
+    },
+    {
+      "id": 6,
+      "title": "Community clean-up day",
+      "detail": "Optional. Meet at the main gate at 08:00.",
+      "type": "event",
+      "startDate": "2027-02-27",
+      "startDay": "Saturday",
+      "endDate": "2027-02-27",
+      "endDay": "Saturday",
+      "audience": "learners and families"
+    },
+    {
+      "id": 7,
+      "title": "Science fair",
+      "detail": "Projects on show in the labs from 10:00.",
+      "type": "event",
+      "startDate": "2027-03-05",
+      "startDay": "Friday",
+      "endDate": "2027-03-05",
+      "endDay": "Friday",
+      "audience": "everyone"
+    },
+    {
+      "id": 8,
+      "title": "Sports day",
+      "detail": "Families welcome from 09:00.",
+      "type": "event",
+      "startDate": "2027-03-06",
+      "startDay": "Saturday",
+      "endDate": "2027-03-06",
+      "endDay": "Saturday",
+      "audience": "everyone"
+    },
+    {
+      "id": 9,
+      "title": "End-of-term exams",
+      "detail": "Timetable on the class notice board.",
+      "type": "exam",
+      "startDate": "2027-03-15",
+      "startDay": "Monday",
+      "endDate": "2027-03-19",
+      "endDay": "Friday",
+      "audience": "learners"
+    },
+    {
+      "id": 10,
+      "title": "Exam results day",
+      "detail": "Class teachers return marked papers.",
+      "type": "event",
+      "startDate": "2027-03-31",
+      "startDay": "Wednesday",
+      "endDate": "2027-03-31",
+      "endDay": "Wednesday",
+      "audience": "learners"
+    },
+    {
+      "id": 11,
+      "title": "Reports collected",
+      "detail": "Collect reports from 14:00 to 16:00.",
+      "type": "event",
+      "startDate": "2027-04-07",
+      "startDay": "Wednesday",
+      "endDate": "2027-04-07",
+      "endDay": "Wednesday",
+      "audience": "families"
+    },
+    {
+      "id": 12,
+      "title": "Term closes",
+      "detail": "Learners leave at 12:30.",
+      "type": "term",
+      "startDate": "2027-04-08",
+      "startDay": "Thursday",
+      "endDate": "2027-04-08",
+      "endDay": "Thursday",
+      "audience": "everyone"
+    }
+  ]
+}

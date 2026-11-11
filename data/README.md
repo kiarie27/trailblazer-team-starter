@@ -5,6 +5,7 @@
 | `sample-items.json` | Three items for the product skeleton | Made up for this course |
 | `prepared-answers.json` | Two sample prepared answers | Samples written for this course to show the format |
 | `forecast-sample.json` | A saved Open-Meteo forecast for Nairobi | Open-Meteo, saved on 11 Nov 2026 (details below) |
+| `challenges/*.json` | The data for each of the eight approved challenges | Each file's `_note` says whether it is made up or real, and where real data came from |
 
 ## forecast-sample.json
 

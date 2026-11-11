@@ -1,0 +1,170 @@
+{
+  "_note": "Made up for this course, except forecastPlace, which is real (see its _source). Kijani Estate is a fictional place. There are no volunteer names or contacts: the product counts places only. Rain limits are invented, not safety rules. Copy this file to data/challenges/community-clean-up-planner.json in your team repository.",
+  "estate": "Kijani Estate (fictional)",
+  "forecastPlace": {
+    "town": "Nairobi",
+    "latitude": -1.2833,
+    "longitude": 36.8167,
+    "_source": "Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search), which uses GeoNames data under CC BY 4.0. Checked 11 Nov 2026. Coordinates rounded to four decimal places."
+  },
+  "items": [
+    {
+      "id": 1,
+      "title": "Market lane litter pick",
+      "detail": "Pick up litter along the lane.",
+      "site": "Market lane",
+      "startTime": "08:00",
+      "volunteersNeeded": 8,
+      "toolsNeeded": [
+        "gloves",
+        "rubbish bags",
+        "litter pickers"
+      ],
+      "suitableFor": "all ages, under-13s with an adult",
+      "outdoor": true,
+      "maxRainMm": 10
+    },
+    {
+      "id": 2,
+      "title": "Bus stage sweep",
+      "detail": "Sweep the stage and empty the bins.",
+      "site": "Bus stage",
+      "startTime": "08:00",
+      "volunteersNeeded": 6,
+      "toolsNeeded": [
+        "brooms",
+        "rubbish bags",
+        "gloves"
+      ],
+      "suitableFor": "all ages, under-13s with an adult",
+      "outdoor": true,
+      "maxRainMm": 8
+    },
+    {
+      "id": 3,
+      "title": "Playground tidy",
+      "detail": "Rake leaves and pick up litter.",
+      "site": "Playground",
+      "startTime": "08:30",
+      "volunteersNeeded": 6,
+      "toolsNeeded": [
+        "rakes",
+        "rubbish bags",
+        "gloves"
+      ],
+      "suitableFor": "all ages, under-13s with an adult",
+      "outdoor": true,
+      "maxRainMm": 8
+    },
+    {
+      "id": 4,
+      "title": "Stream bank clearing",
+      "detail": "Clear plastic from the bank, not the water.",
+      "site": "Stream bank behind the playground",
+      "startTime": "09:00",
+      "volunteersNeeded": 10,
+      "toolsNeeded": [
+        "gloves",
+        "rubbish bags",
+        "gumboots"
+      ],
+      "suitableFor": "18 and over",
+      "outdoor": true,
+      "maxRainMm": 5
+    },
+    {
+      "id": 5,
+      "title": "Drain unblocking",
+      "detail": "Clear leaves and plastic from open drains.",
+      "site": "Drains on Kijani Road",
+      "startTime": "09:00",
+      "volunteersNeeded": 6,
+      "toolsNeeded": [
+        "spades",
+        "wheelbarrow",
+        "gloves"
+      ],
+      "suitableFor": "18 and over",
+      "outdoor": true,
+      "maxRainMm": 3
+    },
+    {
+      "id": 6,
+      "title": "Recycling sorting point",
+      "detail": "Sort plastic, paper and glass into sacks.",
+      "site": "Community hall veranda",
+      "startTime": "08:00",
+      "volunteersNeeded": 4,
+      "toolsNeeded": [
+        "sorting sacks",
+        "labels",
+        "gloves"
+      ],
+      "suitableFor": "all ages",
+      "outdoor": false,
+      "maxRainMm": null
+    },
+    {
+      "id": 7,
+      "title": "Tree watering",
+      "detail": "Water the young trees. Skip if it rained well.",
+      "site": "Young trees along the main road",
+      "startTime": "10:00",
+      "volunteersNeeded": 5,
+      "toolsNeeded": [
+        "watering cans",
+        "buckets"
+      ],
+      "suitableFor": "all ages",
+      "outdoor": true,
+      "maxRainMm": 20
+    },
+    {
+      "id": 8,
+      "title": "Notice board painting",
+      "detail": "Repaint the board. Needs a dry day.",
+      "site": "Community notice board",
+      "startTime": "10:00",
+      "volunteersNeeded": 3,
+      "toolsNeeded": [
+        "paint",
+        "brushes",
+        "old newspapers"
+      ],
+      "suitableFor": "13 and over with an adult",
+      "outdoor": true,
+      "maxRainMm": 1
+    },
+    {
+      "id": 9,
+      "title": "Gate and fence tidy",
+      "detail": "Cut back grass and pick up litter by the fence.",
+      "site": "Main gate",
+      "startTime": "08:30",
+      "volunteersNeeded": 4,
+      "toolsNeeded": [
+        "gloves",
+        "rubbish bags",
+        "slashers"
+      ],
+      "suitableFor": "18 and over",
+      "outdoor": true,
+      "maxRainMm": 10
+    },
+    {
+      "id": 10,
+      "title": "Volunteer water point",
+      "detail": "Keep drinking water and cups ready for volunteers.",
+      "site": "Community hall veranda",
+      "startTime": "08:00",
+      "volunteersNeeded": 2,
+      "toolsNeeded": [
+        "water containers",
+        "cups"
+      ],
+      "suitableFor": "all ages",
+      "outdoor": false,
+      "maxRainMm": null
+    }
+  ]
+}

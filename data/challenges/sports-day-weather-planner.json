@@ -1,0 +1,119 @@
+{
+  "_note": "Made up for this course, except forecastPlace, which is real (see its _source). The events and rain limits are invented for practice. They are not safety rules: the organiser always decides. Every event is open to everyone. Copy this file to data/challenges/sports-day-weather-planner.json in your team repository.",
+  "forecastPlace": {
+    "town": "Nairobi",
+    "latitude": -1.2833,
+    "longitude": 36.8167,
+    "_source": "Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search), which uses GeoNames data under CC BY 4.0. Checked 11 Nov 2026. Coordinates rounded to four decimal places."
+  },
+  "items": [
+    {
+      "id": 1,
+      "title": "100 m sprint",
+      "detail": "Grass track gets slippery in heavy rain.",
+      "category": "track",
+      "outdoor": true,
+      "durationMinutes": 30,
+      "maxRainMm": 5
+    },
+    {
+      "id": 2,
+      "title": "4 x 100 m relay",
+      "detail": "Baton changes are hard on a wet track.",
+      "category": "track",
+      "outdoor": true,
+      "durationMinutes": 40,
+      "maxRainMm": 5
+    },
+    {
+      "id": 3,
+      "title": "1500 m run",
+      "detail": "Can run in light rain.",
+      "category": "track",
+      "outdoor": true,
+      "durationMinutes": 30,
+      "maxRainMm": 8
+    },
+    {
+      "id": 4,
+      "title": "Long jump",
+      "detail": "The take-off board gets slippery.",
+      "category": "field",
+      "outdoor": true,
+      "durationMinutes": 45,
+      "maxRainMm": 3
+    },
+    {
+      "id": 5,
+      "title": "High jump",
+      "detail": "Needs a dry run-up and a dry landing mat.",
+      "category": "field",
+      "outdoor": true,
+      "durationMinutes": 45,
+      "maxRainMm": 2
+    },
+    {
+      "id": 6,
+      "title": "Shot put",
+      "detail": "A wet shot is hard to grip.",
+      "category": "field",
+      "outdoor": true,
+      "durationMinutes": 40,
+      "maxRainMm": 10
+    },
+    {
+      "id": 7,
+      "title": "Football",
+      "detail": "Stop at once if there is thunder or lightning.",
+      "category": "team game",
+      "outdoor": true,
+      "durationMinutes": 60,
+      "maxRainMm": 10
+    },
+    {
+      "id": 8,
+      "title": "Netball",
+      "detail": "The court surface gets slippery.",
+      "category": "team game",
+      "outdoor": true,
+      "durationMinutes": 50,
+      "maxRainMm": 5
+    },
+    {
+      "id": 9,
+      "title": "Tug of war",
+      "detail": "Muddy ground makes it unfair.",
+      "category": "fun event",
+      "outdoor": true,
+      "durationMinutes": 30,
+      "maxRainMm": 10
+    },
+    {
+      "id": 10,
+      "title": "Sack race",
+      "detail": "Runs on grass.",
+      "category": "fun event",
+      "outdoor": true,
+      "durationMinutes": 20,
+      "maxRainMm": 4
+    },
+    {
+      "id": 11,
+      "title": "Chess tournament",
+      "detail": "In the hall. Rain does not matter.",
+      "category": "indoor",
+      "outdoor": false,
+      "durationMinutes": 90,
+      "maxRainMm": null
+    },
+    {
+      "id": 12,
+      "title": "Table tennis",
+      "detail": "In the hall. Rain does not matter.",
+      "category": "indoor",
+      "outdoor": false,
+      "durationMinutes": 60,
+      "maxRainMm": null
+    }
+  ]
+}

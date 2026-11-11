@@ -1,0 +1,178 @@
+{
+  "_note": "Made up for this course. A fictional exam week for a fictional class. It is not a real school's timetable. Copy this file to data/challenges/revision-timetable-planner.json in your team repository.",
+  "items": [
+    {
+      "id": 1,
+      "title": "Mathematics Paper 1",
+      "detail": "Monday 2027-03-15, 08:30, 120 minutes. Bring a calculator, ruler and pencil.",
+      "subject": "Mathematics",
+      "date": "2027-03-15",
+      "day": "Monday",
+      "startTime": "08:30",
+      "durationMinutes": 120,
+      "topics": [
+        "Algebra",
+        "Linear equations",
+        "Indices"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "English Paper 1",
+      "detail": "Monday 2027-03-15, 11:00, 90 minutes. Answer all questions in pen.",
+      "subject": "English",
+      "date": "2027-03-15",
+      "day": "Monday",
+      "startTime": "11:00",
+      "durationMinutes": 90,
+      "topics": [
+        "Functional writing",
+        "Grammar"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Biology Paper 1",
+      "detail": "Tuesday 2027-03-16, 08:30, 120 minutes. Diagrams in pencil.",
+      "subject": "Biology",
+      "date": "2027-03-16",
+      "day": "Tuesday",
+      "startTime": "08:30",
+      "durationMinutes": 120,
+      "topics": [
+        "Cells",
+        "Nutrition in plants",
+        "Classification"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Kiswahili Paper 1",
+      "detail": "Tuesday 2027-03-16, 11:00, 90 minutes. Two compositions.",
+      "subject": "Kiswahili",
+      "date": "2027-03-16",
+      "day": "Tuesday",
+      "startTime": "11:00",
+      "durationMinutes": 90,
+      "topics": [
+        "Insha (composition)",
+        "Sarufi (grammar)"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Chemistry Paper 1",
+      "detail": "Wednesday 2027-03-17, 08:30, 120 minutes. Bring a calculator.",
+      "subject": "Chemistry",
+      "date": "2027-03-17",
+      "day": "Wednesday",
+      "startTime": "08:30",
+      "durationMinutes": 120,
+      "topics": [
+        "The mole",
+        "Acids and bases",
+        "The periodic table"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "History Paper 1",
+      "detail": "Wednesday 2027-03-17, 11:00, 90 minutes. Short and long answers.",
+      "subject": "History",
+      "date": "2027-03-17",
+      "day": "Wednesday",
+      "startTime": "11:00",
+      "durationMinutes": 90,
+      "topics": [
+        "Early trade on the East African coast",
+        "Citizenship"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Physics Paper 1",
+      "detail": "Thursday 2027-03-18, 08:30, 120 minutes. Bring a calculator and ruler.",
+      "subject": "Physics",
+      "date": "2027-03-18",
+      "day": "Thursday",
+      "startTime": "08:30",
+      "durationMinutes": 120,
+      "topics": [
+        "Forces",
+        "Pressure",
+        "Simple circuits"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Geography Paper 1",
+      "detail": "Thursday 2027-03-18, 11:00, 90 minutes. Bring a ruler and protractor.",
+      "subject": "Geography",
+      "date": "2027-03-18",
+      "day": "Thursday",
+      "startTime": "11:00",
+      "durationMinutes": 90,
+      "topics": [
+        "Weather and climate",
+        "Map reading"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Agriculture Paper 1",
+      "detail": "Thursday 2027-03-18, 14:00, 90 minutes. Short answers only.",
+      "subject": "Agriculture",
+      "date": "2027-03-18",
+      "day": "Thursday",
+      "startTime": "14:00",
+      "durationMinutes": 90,
+      "topics": [
+        "Soil",
+        "Crop production"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Mathematics Paper 2",
+      "detail": "Friday 2027-03-19, 08:30, 120 minutes. Bring a calculator, ruler and protractor.",
+      "subject": "Mathematics",
+      "date": "2027-03-19",
+      "day": "Friday",
+      "startTime": "08:30",
+      "durationMinutes": 120,
+      "topics": [
+        "Geometry",
+        "Statistics",
+        "Probability"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "English Paper 2",
+      "detail": "Friday 2027-03-19, 11:00, 120 minutes. Read every passage twice.",
+      "subject": "English",
+      "date": "2027-03-19",
+      "day": "Friday",
+      "startTime": "11:00",
+      "durationMinutes": 120,
+      "topics": [
+        "Comprehension",
+        "Summary writing"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Computer Studies Paper 1",
+      "detail": "Friday 2027-03-19, 14:00, 90 minutes. Written paper, no computers.",
+      "subject": "Computer Studies",
+      "date": "2027-03-19",
+      "day": "Friday",
+      "startTime": "14:00",
+      "durationMinutes": 90,
+      "topics": [
+        "Algorithms",
+        "Spreadsheets"
+      ]
+    }
+  ]
+}

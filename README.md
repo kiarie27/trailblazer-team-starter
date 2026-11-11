@@ -9,11 +9,13 @@ This is your team's starting repository for Trailblazer: AI Product Studio. Your
 | `index.html`, `style.css`, `app.js` | Your product's interface. It starts as a skeleton that shows three sample items. | From Day 3 |
 | `src/service.js` | Your service module (runs in the browser for now). It fetches and checks data for the interface. | Days 3 and 4 |
 | `src/prepared-answers.js` | Finds a checked answer to a user's question. Only for products with an AI feature. | Day 5 |
-| `data/` | Sample data made up for this course, and a saved forecast. `data/README.md` says where each file came from. | From Day 3 |
+| `data/` | Sample data made up for this course, a saved forecast, and the data for every challenge in `data/challenges/`. `data/README.md` says where each file came from. | From Day 3 |
 | `practice/` | The Town forecast practice card and the locked box. | Days 3 and 4 |
 | `test/` | Automatic tests. They run every time you open a pull request. | From Day 3 |
 | `docs/` | Templates: README and case study, data map, architecture sketch and risk register. | From Day 1 |
 | `.devcontainer/`, `.github/` | Settings for your codespace and for the checks. Please do not change them. | Never |
+
+Your challenge's data is already in `data/challenges/`, so your team copies nothing.
 
 ## Open it in a codespace
 

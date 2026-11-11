@@ -1,0 +1,138 @@
+{
+  "_note": "Made up for this course. The book titles and blurbs are invented. There are no reader names: the product counts reads for the whole class only. Copy this file to data/challenges/class-reading-tracker.json in your team repository.",
+  "classGoal": 100,
+  "items": [
+    {
+      "id": 1,
+      "title": "The Matatu That Learned to Fly",
+      "detail": "A matatu grows wings on the way to town.",
+      "genre": "adventure",
+      "language": "English",
+      "pages": 140,
+      "level": "easy",
+      "onShelf": true,
+      "timesReadThisTerm": 9
+    },
+    {
+      "id": 2,
+      "title": "Siri ya Mto Mweupe",
+      "detail": "Watoto watatu wafuata siri ya mto.",
+      "genre": "mystery",
+      "language": "Kiswahili",
+      "pages": 120,
+      "level": "medium",
+      "onShelf": false,
+      "timesReadThisTerm": 6
+    },
+    {
+      "id": 3,
+      "title": "Signals from Kilima Station",
+      "detail": "A weather station picks up a strange signal.",
+      "genre": "science fiction",
+      "language": "English",
+      "pages": 210,
+      "level": "medium",
+      "onShelf": true,
+      "timesReadThisTerm": 4
+    },
+    {
+      "id": 4,
+      "title": "Twiga and the Lost Map",
+      "detail": "A young giraffe follows an old map across the plains.",
+      "genre": "adventure",
+      "language": "English",
+      "pages": 96,
+      "level": "easy",
+      "onShelf": true,
+      "timesReadThisTerm": 11
+    },
+    {
+      "id": 5,
+      "title": "The Code Club Mystery",
+      "detail": "Someone keeps breaking the club's website.",
+      "genre": "mystery",
+      "language": "English",
+      "pages": 180,
+      "level": "medium",
+      "onShelf": false,
+      "timesReadThisTerm": 7
+    },
+    {
+      "id": 6,
+      "title": "Rain on the Rooftops",
+      "detail": "Short poems about weather and home.",
+      "genre": "poetry",
+      "language": "English",
+      "pages": 64,
+      "level": "easy",
+      "onShelf": true,
+      "timesReadThisTerm": 3
+    },
+    {
+      "id": 7,
+      "title": "Safari ya Nyota",
+      "detail": "Safari ya kwenda kwenye nyota za mbali.",
+      "genre": "science fiction",
+      "language": "Kiswahili",
+      "pages": 150,
+      "level": "medium",
+      "onShelf": true,
+      "timesReadThisTerm": 2
+    },
+    {
+      "id": 8,
+      "title": "The Night Sky Notebook",
+      "detail": "How to find stars and planets without a telescope.",
+      "genre": "non-fiction",
+      "language": "English",
+      "pages": 120,
+      "level": "medium",
+      "onShelf": true,
+      "timesReadThisTerm": 5
+    },
+    {
+      "id": 9,
+      "title": "How Bridges Stand Up",
+      "detail": "Why bridges do not fall down, with simple experiments.",
+      "genre": "non-fiction",
+      "language": "English",
+      "pages": 88,
+      "level": "easy",
+      "onShelf": true,
+      "timesReadThisTerm": 4
+    },
+    {
+      "id": 10,
+      "title": "The Last Library Card",
+      "detail": "A town fights to keep its library open.",
+      "genre": "drama",
+      "language": "English",
+      "pages": 260,
+      "level": "challenging",
+      "onShelf": false,
+      "timesReadThisTerm": 3
+    },
+    {
+      "id": 11,
+      "title": "Hadithi za Mtaa Wetu",
+      "detail": "Hadithi fupi kuhusu maisha ya mtaani.",
+      "genre": "short stories",
+      "language": "Kiswahili",
+      "pages": 110,
+      "level": "easy",
+      "onShelf": true,
+      "timesReadThisTerm": 8
+    },
+    {
+      "id": 12,
+      "title": "The Robot Who Spoke Sheng",
+      "detail": "A classroom robot learns to talk like a teenager.",
+      "genre": "comedy",
+      "language": "English",
+      "pages": 132,
+      "level": "easy",
+      "onShelf": false,
+      "timesReadThisTerm": 10
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "_note": "Made up for this course. No owner names, no photos, and nothing that could identify a person. Items with a name on them, and phones, go straight to the class teacher and are never listed. Owners claim items from the class teacher in person. Copy this file to data/challenges/lost-and-found-board.json in your team repository.",
+  "items": [
+    {
+      "id": 1,
+      "title": "Water bottle",
+      "detail": "Metal, with a dent near the lid.",
+      "category": "bottle",
+      "colour": "blue",
+      "foundIn": "Field",
+      "dateFound": "2027-02-01",
+      "status": "waiting"
+    },
+    {
+      "id": 2,
+      "title": "Jumper",
+      "detail": "Size medium.",
+      "category": "clothing",
+      "colour": "grey",
+      "foundIn": "Hall",
+      "dateFound": "2027-02-01",
+      "status": "waiting"
+    },
+    {
+      "id": 3,
+      "title": "Scientific calculator",
+      "detail": "Solar panel on top.",
+      "category": "stationery",
+      "colour": "black",
+      "foundIn": "Science lab",
+      "dateFound": "2027-02-02",
+      "status": "collected"
+    },
+    {
+      "id": 4,
+      "title": "Geometry set",
+      "detail": "Tin box, compass missing.",
+      "category": "stationery",
+      "colour": "green",
+      "foundIn": "Room 4",
+      "dateFound": "2027-02-03",
+      "status": "waiting"
+    },
+    {
+      "id": 5,
+      "title": "Umbrella",
+      "detail": "Folding, with a wooden handle.",
+      "category": "other",
+      "colour": "red",
+      "foundIn": "Library",
+      "dateFound": "2027-02-03",
+      "status": "waiting"
+    },
+    {
+      "id": 6,
+      "title": "English-Kiswahili dictionary",
+      "detail": "Pocket size.",
+      "category": "book",
+      "colour": "yellow",
+      "foundIn": "Library",
+      "dateFound": "2027-02-04",
+      "status": "waiting"
+    },
+    {
+      "id": 7,
+      "title": "Football boots",
+      "detail": "Size 6.",
+      "category": "sports kit",
+      "colour": "black and white",
+      "foundIn": "Field",
+      "dateFound": "2027-02-05",
+      "status": "waiting"
+    },
+    {
+      "id": 8,
+      "title": "Lunch box",
+      "detail": "Two compartments.",
+      "category": "container",
+      "colour": "yellow",
+      "foundIn": "Dining hall",
+      "dateFound": "2027-02-05",
+      "status": "collected"
+    },
+    {
+      "id": 9,
+      "title": "Pencil case",
+      "detail": "Zip pocket on the front.",
+      "category": "stationery",
+      "colour": "purple",
+      "foundIn": "Computer lab",
+      "dateFound": "2027-02-08",
+      "status": "waiting"
+    },
+    {
+      "id": 10,
+      "title": "Cap",
+      "detail": "Plain, no logo.",
+      "category": "clothing",
+      "colour": "navy",
+      "foundIn": "Field",
+      "dateFound": "2027-02-09",
+      "status": "waiting"
+    },
+    {
+      "id": 11,
+      "title": "Wired earphones",
+      "detail": "In a small pouch.",
+      "category": "electronics",
+      "colour": "white",
+      "foundIn": "Hall",
+      "dateFound": "2027-02-10",
+      "status": "waiting"
+    },
+    {
+      "id": 12,
+      "title": "Netball bib",
+      "detail": "Marked GA.",
+      "category": "sports kit",
+      "colour": "orange",
+      "foundIn": "Field",
+      "dateFound": "2027-02-11",
+      "status": "waiting"
+    },
+    {
+      "id": 13,
+      "title": "Ruler",
+      "detail": "30 cm.",
+      "category": "stationery",
+      "colour": "clear",
+      "foundIn": "Room 4",
+      "dateFound": "2027-02-12",
+      "status": "collected"
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "_note": "Real place data, not made up. Each town is its county's seat in GeoNames (feature code PPLA; PPLC marks the capital). Use the coordinates with Open-Meteo for this week's weather. Where a county name lacked the word County, it was added. Copy this file to data/challenges/know-your-county.json in your team repository.",
+  "_source": "Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search), which uses GeoNames data under CC BY 4.0. Checked 11 Nov 2026. Coordinates rounded to four decimal places.",
+  "items": [
+    {
+      "id": 1,
+      "title": "Nairobi County",
+      "detail": "County seat: Nairobi, about 1,684 m above sea level.",
+      "county": "Nairobi County",
+      "town": "Nairobi",
+      "latitude": -1.2833,
+      "longitude": 36.8167,
+      "elevationM": 1684,
+      "geonamesFeatureCode": "PPLC"
+    },
+    {
+      "id": 2,
+      "title": "Mombasa County",
+      "detail": "County seat: Mombasa, about 20 m above sea level.",
+      "county": "Mombasa County",
+      "town": "Mombasa",
+      "latitude": -4.0547,
+      "longitude": 39.6636,
+      "elevationM": 20,
+      "geonamesFeatureCode": "PPLA"
+    },
+    {
+      "id": 3,
+      "title": "Kisumu County",
+      "detail": "County seat: Kisumu, about 1,174 m above sea level.",
+      "county": "Kisumu County",
+      "town": "Kisumu",
+      "latitude": -0.1022,
+      "longitude": 34.7617,
+      "elevationM": 1174,
+      "geonamesFeatureCode": "PPLA"
+    },
+    {
+      "id": 4,
+      "title": "Nakuru County",
+      "detail": "County seat: Nakuru, about 1,802 m above sea level.",
+      "county": "Nakuru County",
+      "town": "Nakuru",
+      "latitude": -0.3072,
+      "longitude": 36.0722,
+      "elevationM": 1802,
+      "geonamesFeatureCode": "PPLA"
+    },
+    {
+      "id": 5,
+      "title": "Uasin Gishu County",
+      "detail": "County seat: Eldoret, about 2,095 m above sea level.",
+      "county": "Uasin Gishu County",
+      "town": "Eldoret",
+      "latitude": 0.5204,
+      "longitude": 35.2699,
+      "elevationM": 2095,
+      "geonamesFeatureCode": "PPLA"
+    },
+    {
+      "id": 6,
+      "title": "Nyeri County",
+      "detail": "County seat: Nyeri, about 1,812 m above sea level.",
+      "county": "Nyeri County",
+      "town": "Nyeri",
+      "latitude": -0.4201,
+      "longitude": 36.9476,
+      "elevationM": 1812,
+      "geonamesFeatureCode": "PPLA"
+    },
+    {
+      "id": 7,
+      "title": "Machakos County",
+      "detail": "County seat: Machakos, about 1,619 m above sea level.",
+      "county": "Machakos County",
+      "town": "Machakos",
+      "latitude": -1.5223,
+      "longitude": 37.2652,
+      "elevationM": 1619,
+      "geonamesFeatureCode": "PPLA"
+    },
+    {
+      "id": 8,
+      "title": "Kakamega County",
+      "detail": "County seat: Kakamega, about 1,563 m above sea level.",
+      "county": "Kakamega County",
+      "town": "Kakamega",
+      "latitude": 0.2842,
+      "longitude": 34.7523,
+      "elevationM": 1563,
+      "geonamesFeatureCode": "PPLA"
+    },
+    {
+      "id": 9,
+      "title": "Garissa County",
+      "detail": "County seat: Garissa, about 147 m above sea level.",
+      "county": "Garissa County",
+      "town": "Garissa",
+      "latitude": -0.4527,
+      "longitude": 39.646,
+      "elevationM": 147,
+      "geonamesFeatureCode": "PPLA"
+    },
+    {
+      "id": 10,
+      "title": "Turkana County",
+      "detail": "County seat: Lodwar, about 500 m above sea level.",
+      "county": "Turkana County",
+      "town": "Lodwar",
+      "latitude": 3.1199,
+      "longitude": 35.5964,
+      "elevationM": 500,
+      "geonamesFeatureCode": "PPLA"
+    },
+    {
+      "id": 11,
+      "title": "Meru County",
+      "detail": "County seat: Meru, about 1,579 m above sea level.",
+      "county": "Meru County",
+      "town": "Meru",
+      "latitude": 0.0463,
+      "longitude": 37.6559,
+      "elevationM": 1579,
+      "geonamesFeatureCode": "PPLA"
+    },
+    {
+      "id": 12,
+      "title": "Trans Nzoia County",
+      "detail": "County seat: Kitale, about 1,900 m above sea level.",
+      "county": "Trans Nzoia County",
+      "town": "Kitale",
+      "latitude": 1.0157,
+      "longitude": 35.0062,
+      "elevationM": 1900,
+      "geonamesFeatureCode": "PPLA"
+    },
+    {
+      "id": 13,
+      "title": "Narok County",
+      "detail": "County seat: Narok, about 1,881 m above sea level.",
+      "county": "Narok County",
+      "town": "Narok",
+      "latitude": -1.0808,
+      "longitude": 35.8711,
+      "elevationM": 1881,
+      "geonamesFeatureCode": "PPLA"
+    },
+    {
+      "id": 14,
+      "title": "Embu County",
+      "detail": "County seat: Embu, about 1,336 m above sea level.",
+      "county": "Embu County",
+      "town": "Embu",
+      "latitude": -0.5399,
+      "longitude": 37.4574,
+      "elevationM": 1336,
+      "geonamesFeatureCode": "PPLA"
+    }
+  ]
+}
