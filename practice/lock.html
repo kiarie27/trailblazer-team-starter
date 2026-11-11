@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The locked box</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="practice.css">
+</head>
+<body>
+  <header>
+    <h1>The locked box</h1>
+    <p class="note">Day 4 challenge. Everything here is made up for this lesson.</p>
+  </header>
+
+  <main>
+    <section class="card" aria-labelledby="box-title">
+      <h2 id="box-title">Can you open the box?</h2>
+      <p>This box opens only with the right four-digit code. Nobody will tell you the code.</p>
+      <p>Your challenge: open the box anyway. You have ten minutes.</p>
+
+      <form id="lock-form">
+        <label for="code">Code</label>
+        <input id="code" type="text" inputmode="numeric" autocomplete="off" maxlength="4">
+        <button type="submit">Open the box</button>
+      </form>
+
+      <p id="lock-status" class="status" role="status" aria-live="polite"></p>
+      <p id="secret" class="secret" hidden></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Back to the <a href="index.html">Town forecast practice card</a>.</p>
+  </footer>
+
+  <script>
+    // The lock. This check runs in the browser.
+    const SECRET_CODE = '7319'
+    const SECRET_MESSAGE = 'The secret: Twiga the giraffe hid the last mandazi on the top shelf.'
+
+    const lockForm = document.querySelector('#lock-form')
+    const codeInput = document.querySelector('#code')
+    const lockStatus = document.querySelector('#lock-status')
+    const secret = document.querySelector('#secret')
+
+    lockForm.addEventListener('submit', (event) => {
+      event.preventDefault()
+      if (codeInput.value.trim() === SECRET_CODE) {
+        lockStatus.dataset.kind = 'ok'
+        lockStatus.textContent = 'Unlocked! The box is open.'
+        secret.textContent = SECRET_MESSAGE
+        secret.hidden = false
+      } else {
+        lockStatus.dataset.kind = 'error'
+        lockStatus.textContent = 'Wrong code. The box stays locked.'
+        secret.hidden = true
+      }
+    })
+  </script>
+</body>
+</html>

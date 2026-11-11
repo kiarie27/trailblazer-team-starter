@@ -1,0 +1,148 @@
+/* Practice card styles. Every text colour passes the 4.5:1 contrast check. */
+
+:root {
+  --text: #1a1a1a;
+  --muted: #4d4d4d;
+  --accent: #8a4700;
+  --border: #d6d6d6;
+  --ok: #1e6b3a;
+  --error: #a4161a;
+  --focus: #1a5fb4;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--text);
+  line-height: 1.6;
+  background: #fafafa;
+}
+
+header,
+main,
+footer {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+h1 {
+  margin: 0.5rem 0;
+  font-size: 1.6rem;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  color: var(--accent);
+}
+
+.note,
+footer {
+  color: var(--muted);
+}
+
+a {
+  color: var(--accent);
+}
+
+.card {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+}
+
+label {
+  display: block;
+  margin-top: 0.75rem;
+  font-weight: bold;
+}
+
+input[type='text'],
+select {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #767676;
+  border-radius: 6px;
+  background: #fff;
+}
+
+fieldset {
+  margin-top: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+
+legend {
+  font-weight: bold;
+}
+
+/* The practice switches sit on one line with their tick box */
+label.switch {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  font-weight: normal;
+}
+
+input[type='checkbox'] {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  color: #fff;
+  background: var(--accent);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Keyboard users must always see where they are */
+input:focus-visible,
+select:focus-visible,
+button:focus-visible,
+a:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+
+/* Status messages say what happened in words, not only in colour */
+.status {
+  min-height: 1.6em;
+  font-weight: bold;
+}
+
+.status[data-kind='loading'],
+.status[data-kind='empty'] {
+  color: var(--muted);
+}
+
+.status[data-kind='ok'] {
+  color: var(--ok);
+}
+
+.status[data-kind='error'] {
+  color: var(--error);
+}
+
+.list {
+  padding-left: 1.2rem;
+}
+
+/* The secret message, shown once the box is open */
+.secret {
+  padding: 0.75rem 1rem;
+  border-left: 6px solid var(--ok);
+  background: #eef6f0;
+  font-size: 1.1rem;
+}

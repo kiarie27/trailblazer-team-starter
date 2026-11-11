@@ -1,0 +1,23 @@
+{
+  "_note": "SAMPLES ONLY. These two answers show the format. On Day 5, replace them with answers your team wrote in Claude, checked and dated.",
+  "answers": [
+    {
+      "id": "sample-1",
+      "sample": true,
+      "keywords": ["rain", "mm", "millimetres"],
+      "prompt": "In two short sentences for a 14-year-old, explain what 10 mm of rain means in a weather forecast.",
+      "answer": "Sample answer: 10 mm of rain means the water would be 10 millimetres deep if it collected in a flat tray. The bigger the number, the more rain.",
+      "model": "Claude",
+      "checkedOn": "2026-11-11"
+    },
+    {
+      "id": "sample-2",
+      "sample": true,
+      "keywords": ["revise", "revision", "revising", "exam"],
+      "prompt": "Give a 14-year-old three short tips for revising for an exam, in plain words.",
+      "answer": "Sample answer: Revise a little every day instead of all at once. Test yourself with questions instead of rereading notes. Take short breaks.",
+      "model": "Claude",
+      "checkedOn": "2026-11-11"
+    }
+  ]
+}

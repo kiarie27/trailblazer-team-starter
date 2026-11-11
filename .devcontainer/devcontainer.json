@@ -1,13 +1,25 @@
 {
   "name": "Trailblazer team starter",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:24",
-  "postCreateCommand": "npm install",
   "postAttachCommand": "npm start",
   "forwardPorts": [3000],
   "portsAttributes": {
     "3000": {
-      "label": "Moringa Pesa Sandbox",
+      "label": "Preview",
       "onAutoForward": "openPreview"
+    }
+  },
+  "customizations": {
+    "codespaces": {
+      "openFiles": ["README.md"]
+    },
+    "vscode": {
+      "settings": {
+        "github.copilot.enable": {
+          "*": false
+        },
+        "chat.disableAIFeatures": true
+      }
     }
   }
 }

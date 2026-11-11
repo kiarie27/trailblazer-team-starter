@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Town forecast practice card</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="practice.css">
+</head>
+<body>
+  <header>
+    <h1>Town forecast practice card</h1>
+    <p class="note">Practice for Days 3 and 4. The forecast is real and comes from Open-Meteo.</p>
+  </header>
+
+  <main>
+    <section class="card" aria-labelledby="forecast-title">
+      <h2 id="forecast-title">Town forecast</h2>
+      <form id="forecast-form">
+        <label for="town">Town</label>
+        <select id="town"></select>
+
+        <label for="days">Number of days</label>
+        <input id="days" type="text" inputmode="numeric" autocomplete="off" value="3">
+
+        <fieldset>
+          <legend>Practice switches</legend>
+          <label class="switch" for="slow-switch">
+            <input id="slow-switch" type="checkbox">
+            Slow network (wait 3 seconds first)
+          </label>
+          <label class="switch" for="fail-switch">
+            <input id="fail-switch" type="checkbox">
+            Fail (pretend the connection drops)
+          </label>
+        </fieldset>
+
+        <button type="submit">Show forecast</button>
+      </form>
+
+      <p id="forecast-status" class="status" role="status" aria-live="polite"></p>
+      <ul id="forecast-list" class="list"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p><a href="https://open-meteo.com/">Weather data by Open-Meteo.com</a> (<a href="https://open-meteo.com/en/licence">licence: CC BY 4.0</a>).</p>
+    <p>Day 4: try the <a href="lock.html">locked box</a>.</p>
+  </footer>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

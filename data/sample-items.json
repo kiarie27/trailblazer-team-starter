@@ -1,0 +1,20 @@
+{
+  "_note": "Made up for this course. Replace these items with your team's own data.",
+  "items": [
+    {
+      "id": 1,
+      "title": "Saturday clean-up",
+      "detail": "Meet at the market gate at 8:00. Gloves and bags are provided."
+    },
+    {
+      "id": 2,
+      "title": "Homework help club",
+      "detail": "Tuesdays and Thursdays, 16:00 to 17:30, in the community hall."
+    },
+    {
+      "id": 3,
+      "title": "Tree planting day",
+      "detail": "Bring a water bottle. Seedlings are free while they last."
+    }
+  ]
+}

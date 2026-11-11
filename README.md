@@ -1,17 +1,33 @@
 # Trailblazer team starter
 
-This is your team's starting repository for Trailblazer: AI Product Studio. It holds:
+This is your team's starting repository for Trailblazer: AI Product Studio. Your team builds one product here over ten days.
 
-- **The Moringa Pesa Sandbox** (`sandbox/`): a small practice service that works like a mobile-money service. Practice data only: every name, phone number and balance is made up for this course, and no real money moves.
-- **A practice app** (`public/`): a web page that talks to the sandbox. You finish its Check balance card on Day 3.
-- **Tests** (`test/`): checks that the sandbox does what it should. They run every time you open a pull request.
-- **Design templates** (`docs/`): the data map, architecture sketch and risk register you fill in on Day 2.
+## What is here
 
-## Open it
+| Folder or file | What it is | When you use it |
+|---|---|---|
+| `index.html`, `style.css`, `app.js` | Your product's interface. It starts as a skeleton that shows three sample items. | From Day 3 |
+| `src/service.js` | Your service module (runs in the browser for now). It fetches and checks data for the interface. | Days 3 and 4 |
+| `src/prepared-answers.js` | Finds a checked answer to a user's question. Only for products with an AI feature. | Day 5 |
+| `data/` | Sample data made up for this course, and a saved forecast. `data/README.md` says where each file came from. | From Day 3 |
+| `practice/` | The Town forecast practice card and the locked box. | Days 3 and 4 |
+| `test/` | Automatic tests. They run every time you open a pull request. | From Day 3 |
+| `docs/` | Templates: README and case study, data map, architecture sketch and risk register. | From Day 1 |
+| `.devcontainer/`, `.github/` | Settings for your codespace and for the checks. Please do not change them. | Never |
 
-Open your team's repository on GitHub, press **Code**, choose the **Codespaces** tab and press **Create codespace on main**. The step-by-step guide with pictures is in Canvas: "Set up your codespace".
+## Open it in a codespace
 
-When the codespace opens, the sandbox starts by itself and the practice app opens in a panel. If you close it, open the **Ports** tab and press the globe icon next to port 3000.
+1. Open your team's repository on GitHub.
+2. Press the green **Code** button, choose the **Codespaces** tab and press **Create codespace on main**.
+3. Wait a minute or two while it sets up.
+
+When it is ready, a preview of your product opens in a panel. If you close it, open the **Ports** tab and press the globe icon next to port 3000.
+
+To reach the practice card, use the "Town forecast card" link at the bottom of the preview.
+
+If the preview stops working, type `npm start` in the terminal.
+
+The guide with pictures is in Canvas: "Set up your codespace and team repository".
 
 ## Run the tests
 
@@ -21,16 +37,16 @@ In the terminal at the bottom of the screen, type:
 npm test
 ```
 
-Every line should start with a tick. A line marked `# TODO` is a test you write on Day 4.
-
-## Practice numbers
-
-0700000001 (Asha), 0700000002 (Baraka), 0700000003 (Chebet), 0700000004 (Daudi), 0700000005 (Eunice), 0700000006 (Faraji, a new account with no transactions).
+Every test should pass. One line is marked `# TODO`. That is the test you write on Day 4.
 
 ## Rules for this repository
 
 - No real names, phone numbers, school names or photos of anyone.
-- No API keys, passwords or tokens, ever. Anything you commit stays in the history.
-- The `/assist` route is a simulation, not a real AI model. Say so wherever your product uses it.
+- No API keys, passwords or tokens, ever. Anything you commit stays in the history, even after you delete it.
+- Nothing that collects data from visitors: no forms that send data out, no analytics, no embeds.
+- Label made-up data "made up for this course", as the sample files do.
+- If your product has an AI feature, it shows answers your team wrote in Claude and checked. Say so on screen: "Answers written by an AI model (Claude) and checked by our team".
 
-On Day 9 you replace this README with your own product's README.
+On Day 9 you replace this README with your own. Start from `docs/README.md`.
+
+Weather data on the practice card by [Open-Meteo.com](https://open-meteo.com/).

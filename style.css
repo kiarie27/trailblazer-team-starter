@@ -1,4 +1,4 @@
-/* Practice app styles. Colours pass the 4.5:1 contrast check on white. */
+/* Your product's styles. Every text colour passes the 4.5:1 contrast check. */
 
 :root {
   --text: #1a1a1a;
@@ -7,6 +7,7 @@
   --border: #d6d6d6;
   --ok: #1e6b3a;
   --error: #a4161a;
+  --focus: #1a5fb4;
 }
 
 * {
@@ -31,64 +32,50 @@ footer {
 
 h1 {
   margin: 0.5rem 0;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 
 h2 {
   margin-top: 0;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: var(--accent);
 }
 
 .note,
-.hint,
 footer {
   color: var(--muted);
 }
 
-main {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
+a {
+  color: var(--accent);
 }
 
 .card {
-  flex: 1 1 280px;
   background: #fff;
   border: 1px solid var(--border);
   border-radius: 10px;
   padding: 1rem 1.25rem;
 }
 
-label {
-  display: block;
-  margin-top: 0.75rem;
-  font-weight: bold;
+/* Hidden until a keyboard user presses Tab */
+.skip-link {
+  position: absolute;
+  left: -999px;
 }
 
-input {
-  width: 100%;
+.skip-link:focus {
+  left: 1rem;
+  top: 1rem;
   padding: 0.5rem;
-  font-size: 1rem;
-  border: 1px solid #767676;
-  border-radius: 6px;
-}
-
-button {
-  margin-top: 1rem;
-  padding: 0.6rem 1rem;
-  font-size: 1rem;
-  color: #fff;
-  background: var(--accent);
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
+  background: #fff;
 }
 
 /* Keyboard users must always see where they are */
+a:focus-visible,
+button:focus-visible,
 input:focus-visible,
-button:focus-visible {
-  outline: 3px solid #1a5fb4;
+select:focus-visible {
+  outline: 3px solid var(--focus);
   outline-offset: 2px;
 }
 
