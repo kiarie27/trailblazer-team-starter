@@ -1,6 +1,5 @@
-// Serves this repository on port 3000 for the codespace preview,
-// the same folder GitHub Pages serves on Day 8.
-// It never serves hidden files or folders (such as .git) or node_modules.
+// Shows your repository in the codespace preview on port 3000, the same files GitHub Pages shows on Day 8.
+// It never shows hidden files or folders (such as .git) or node_modules. `npm start` runs it.
 import { fileURLToPath } from 'node:url'
 import httpServer from 'http-server'
 

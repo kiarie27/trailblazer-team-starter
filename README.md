@@ -25,7 +25,7 @@ When it is ready, a preview of your product opens in a panel. If you close it, o
 
 To reach the practice card, use the "Town forecast card" link at the bottom of the preview.
 
-If the preview stops working, type `npm start` in the terminal.
+The preview starts with the command `npm start`. If it stops working, type `npm start` in the terminal to start it again.
 
 The guide with pictures is in Canvas: "Set up your codespace and team repository".
 
