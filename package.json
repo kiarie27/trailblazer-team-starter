@@ -5,10 +5,13 @@
   "description": "Team starter for Trailblazer: AI Product Studio: a practice forecast card, a product skeleton, tests and design templates.",
   "type": "module",
   "scripts": {
-    "start": "npx --yes http-server@14.1.1 -p 3000 -c-1 .",
+    "start": "node .devcontainer/preview-server.js",
     "test": "node --test"
   },
   "engines": {
     "node": ">=22"
+  },
+  "devDependencies": {
+    "http-server": "14.1.1"
   }
 }

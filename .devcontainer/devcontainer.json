@@ -1,8 +1,11 @@
 {
   "name": "Trailblazer team starter",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:24",
+  "postCreateCommand": "npm ci",
   "postAttachCommand": "npm start",
-  "forwardPorts": [3000],
+  "forwardPorts": [
+    3000
+  ],
   "portsAttributes": {
     "3000": {
       "label": "Preview",
@@ -11,7 +14,9 @@
   },
   "customizations": {
     "codespaces": {
-      "openFiles": ["README.md"]
+      "openFiles": [
+        "README.md"
+      ]
     },
     "vscode": {
       "settings": {
