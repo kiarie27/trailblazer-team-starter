@@ -101,3 +101,7 @@ select:focus-visible {
 .list {
   padding-left: 1.2rem;
 }
+
+/* Space between cards, and a question box wide enough to read what you type. */
+.card + .card { margin-top: 1rem; }
+#question { width: 100%; max-width: 32rem; }

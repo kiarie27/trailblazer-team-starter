@@ -1,6 +1,6 @@
 // Prepared answers. Your product never calls an AI model while it runs.
-// Instead it looks up answers your team wrote in Claude, checked and saved
-// in data/prepared-answers.json. findAnswer always answers in one of two shapes:
+// Instead it looks up answers Claude wrote for your team's prompts, checked by
+// your team and saved in data/prepared-answers.json. findAnswer always answers in one of two shapes:
 //   { ok: true, data: { answer, checkedOn } }
 //   { ok: false, error: { code, message } }
 // Codes: EMPTY_QUESTION, BLOCKED_TOPIC, NO_MATCH

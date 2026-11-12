@@ -2,6 +2,7 @@
 
 On Day 2, add three privacy risks under the two examples. On Day 7, add security and accessibility risks.
 Rate each risk Low, Medium or High: how likely is it, and how much harm would it do?
+In Done?, write Yes and paste the link to the pull request that did it.
 
 | Risk | Likely? | Harm? | What we will do about it | Who | Done? |
 |---|---|---|---|---|---|
