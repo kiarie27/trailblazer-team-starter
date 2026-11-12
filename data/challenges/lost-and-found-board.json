@@ -1,5 +1,5 @@
 {
-  "_note": "Made up for this course. No owner names, no photos, and nothing that could identify a person. Items with a name on them, and phones, go straight to the class teacher and are never listed. Owners claim items from the class teacher in person. Copy this file to data/challenges/lost-and-found-board.json in your team repository.",
+  "_note": "Made up for this course. No owner names, no photos, and nothing that could identify a person. Items with a name on them, and phones, go straight to the class teacher and are never listed. Owners claim items from the class teacher in person.",
   "items": [
     {
       "id": 1,

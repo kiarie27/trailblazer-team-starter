@@ -1,5 +1,5 @@
 {
-  "_note": "Made up for this course, except forecastPlace, which is real (see its _source). Kijani Estate is a fictional place. There are no volunteer names or contacts: the product counts places only. Rain limits are invented, not safety rules. Copy this file to data/challenges/community-clean-up-planner.json in your team repository.",
+  "_note": "Made up for this course, except forecastPlace, which is real (see its _source). Kijani Estate is a fictional place. There are no volunteer names or contacts: the product counts places only. Rain limits are invented, not safety rules.",
   "estate": "Kijani Estate (fictional)",
   "forecastPlace": {
     "town": "Nairobi",

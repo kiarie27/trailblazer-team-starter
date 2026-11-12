@@ -1,5 +1,5 @@
 {
-  "_note": "Real place data, not made up. Each town is its county's seat in GeoNames (feature code PPLA; PPLC marks the capital). Use the coordinates with Open-Meteo for this week's weather. Where a county name lacked the word County, it was added. Copy this file to data/challenges/know-your-county.json in your team repository.",
+  "_note": "Real place data, not made up. Each town is its county's seat in GeoNames (feature code PPLA; PPLC marks the capital). Use the coordinates with Open-Meteo for this week's weather. Where a county name lacked the word County, it was added.",
   "_source": "Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search), which uses GeoNames data under CC BY 4.0. Checked 11 Nov 2026. Coordinates rounded to four decimal places.",
   "items": [
     {

@@ -1,5 +1,5 @@
 {
-  "_note": "Made up for this course, except forecastPlace, which is real (see its _source). The events and rain limits are invented for practice. They are not safety rules: the organiser always decides. Every event is open to everyone. Copy this file to data/challenges/sports-day-weather-planner.json in your team repository.",
+  "_note": "Made up for this course, except forecastPlace, which is real (see its _source). The events and rain limits are invented for practice. They are not safety rules: the organiser always decides. Every event is open to everyone.",
   "forecastPlace": {
     "town": "Nairobi",
     "latitude": -1.2833,
