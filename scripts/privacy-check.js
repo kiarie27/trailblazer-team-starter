@@ -140,6 +140,7 @@ export function runPrivacyCheck(extraWords = [], print = console.log) {
   print('Step 2 of 4. Authors and committers (' + people.length + ')')
   print('  Each name should be a username or a first name.')
   let peopleToLookAt = 0
+  let yourWordPlaces = 0
   for (const person of people) {
     const email = person.slice(person.lastIndexOf('<') + 1, -1)
     const notes = []
@@ -148,6 +149,7 @@ export function runPrivacyCheck(extraWords = [], print = console.log) {
     }
     if (hasYourWords(person)) {
       notes.push('has one of your words')
+      yourWordPlaces += 1
     }
     if (notes.length > 0) {
       peopleToLookAt += 1
@@ -161,11 +163,16 @@ export function runPrivacyCheck(extraWords = [], print = console.log) {
   let messagesToLookAt = 0
   for (const commit of commits) {
     const message = commit.body ? commit.subject + '\n' + commit.body : commit.subject
-    const look = pattern.test(message)
+    const yours = hasYourWords(message)
+    const look = yours || pattern.test(message)
     if (look) {
       messagesToLookAt += 1
     }
-    print('  ' + commit.id + ' ' + message.split('\n').join('\n          ') + (look ? '   <-- LOOK' : ''))
+    if (yours) {
+      yourWordPlaces += 1
+    }
+    const note = yours ? '   <-- LOOK: has one of your words' : look ? '   <-- LOOK' : ''
+    print('  ' + commit.id + ' ' + message.split('\n').join('\n          ') + note)
   }
 
   print('')
@@ -183,7 +190,11 @@ export function runPrivacyCheck(extraWords = [], print = console.log) {
       print('  Commit ' + line.commit)
       lastCommit = line.commit
     }
-    print('    ' + line.file + ': ' + line.text)
+    const yours = hasYourWords(line.file + ' ' + line.text)
+    if (yours) {
+      yourWordPlaces += 1
+    }
+    print('    ' + line.file + ': ' + line.text + (yours ? '   <-- YOUR WORD' : ''))
   }
   if (lines.length === 0) {
     print('  None found.')
@@ -197,12 +208,22 @@ export function runPrivacyCheck(extraWords = [], print = console.log) {
   print('  Added lines to read: ' + lines.length)
   if (extraWords.length === 0) {
     print('  No words of your own were searched. To add them: npm run privacy-check Surname "School name"')
+  } else {
+    print('  Places with your words (' + extraWords.join(', ') + '): ' + yourWordPlaces + ', each one marked')
   }
   print('')
   print('This check finds things for you to read. It does not decide anything.')
   print('Lines that came with the starter are fine. Anything else? Stop and tell your TM.')
   print('It cannot read pictures, issues or pull request text. Read those on github.com.')
-  return { fetched, people: people.length, peopleToLookAt, commits: commits.length, messagesToLookAt, lines: lines.length }
+  return {
+    fetched,
+    people: people.length,
+    peopleToLookAt,
+    commits: commits.length,
+    messagesToLookAt,
+    lines: lines.length,
+    yourWordPlaces,
+  }
 }
 
 // Runs only when this file is started directly, not when a test imports it

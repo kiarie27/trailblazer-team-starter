@@ -93,7 +93,8 @@ test('the privacy check reports a deleted line, a pull request author and text t
 test('the privacy check also searches for the words you add', () => {
   const { status, report } = runCheck(codespace, ['hilltop school'])
 
-  assert.match(report, /idea\.md: Made by Pat Example of Hilltop School/)
+  assert.match(report, /idea\.md: Made by Pat Example of Hilltop School +<-- YOUR WORD/)
+  assert.match(report, /Places with your words \(hilltop school\): 1,/)
   assert.match(report, /Added lines to read: 3\n/)
   assert.equal(status, 0)
 })
