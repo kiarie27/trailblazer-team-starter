@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "node .devcontainer/preview-server.js",
-    "test": "node --test"
+    "test": "node --test",
+    "privacy-check": "node scripts/privacy-check.js"
   },
   "engines": {
     "node": ">=22"
